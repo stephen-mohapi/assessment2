@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+
+        }
+        body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+    
+}
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+        }
+        .hero {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .content {
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+        .bio {
+            flex: 2;
+        }
+        .bio h2 {
+            font-size: 24px;
+        }
+        .bio p {
+            margin: 10px 0;
+        }
+        .profile-img {
+            .profile-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center; /* Shift focus to face */
+}
+ 
+        }
+        .profile-img img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        .social-icons button {
+            margin-right: 10px;
+            padding: 10px;
+            border-radius: 50%;
+            border: none;
+        }
+        .map {
+            width: 300px;
+            height: 200px;
+            background-color: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-content > div {
+    min-width: 200px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 70%;
+}
+
+.quick-links li {
+    margin-bottom: 8px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.quick-links a:hover {
+    color: #555;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <button>tA-LeFaS</button>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About me</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero">
+            <video width="100%" height="100%" autoplay muted loop playsinline>
+                <source src="leefa.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+            
+        </video> 
+        
+        
+    </div>
+
+    <div class="content">
+        <div class="bio">
+            <h2>Name:Lefa </h2>
+            <p><strong>my bio</strong>  Lefa is eager<br>
+                to expand my technological expertise through innovative<br>
+                Aproaches. I am particularly<br>
+                Interested in furthering my HTml<br>
+                Skills to refine my website.</p>
+        </div>
+        <div class="profile-img">
+            <img src="lefas.jpg" alt="Your Image">
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>Address Here</p>
+            <footer>
+                <div>
+                    <p>Address Here</p>
+                    <div class="social-icons">
+                        <button class="social-circle">T</button>
+                        <button class="social-circle">F</button>
+                        <button class="social-circle">I</button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div class="map">
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35674.91957082673!2d26.6750998305555!3d-27.99716878816976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e93231236cf6b41%3A0x25c4013a3b0d63f3!2sWelkom%2C%209460%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1684876243456!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="200" 
+                    style="border:0; border-radius: 10px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            
+        
+    </footer>
+</body>
+</html>
+
